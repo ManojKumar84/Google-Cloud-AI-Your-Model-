@@ -22,4 +22,4 @@ limited_model.add(layers.Dense(20, activation='relu'))
 limited_model.add(layers.Dense(1, activation='sigmoid'))
 limited_model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
 # The data will come from limited_train_data and limited_train_labels.
-limited_model.fit(limited_train_data, limited_train_labels, epochs=10, batch_size=2048, validation_split=0.1
+limited_model.fit(limited_train_data, limited_train_labels, epochs=10, batch_size=2048, validation_split=0.1)
